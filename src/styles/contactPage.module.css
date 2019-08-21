@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: gray;
+}
+
+.h3Gray {
+  color: gray;
+}
+
+.h3Style {
+  color: #c74242;
+}
+
+.miniContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}

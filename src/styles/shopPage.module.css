@@ -1,0 +1,324 @@
+.articleTitleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+.buttonX {
+  color: gray;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.buttonX:hover {
+  color: #c74242;
+  border: 2px solid #c74242;
+}
+
+.buttonXContainer {
+  width: fit-content;
+}
+
+.articleTitle1 {
+  width: auto;
+  bottom: 78px;
+  padding-left: 1rem;
+
+  font-size: 1.2rem;
+  color: gray;
+}
+.articleTitle1:hover {
+  color: #c74242;
+}
+
+.TotalPrice {
+  margin: 1rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.BuyButton {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: white;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: 2px solid gray;
+}
+
+.BuyButton h3 {
+  color: #c74242;
+}
+
+.SearchContainer {
+  color: grey;
+}
+
+input {
+  border-radius: 25px;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.BuyButton:hover {
+  border: 4px solid #c74242;
+  cursor: pointer;
+  color: #c74242;
+}
+
+.CartContainerContent {
+  overflow-y: scroll;
+  height: 260px;
+  border-bottom: 2px solid gray;
+}
+
+.CartContainerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.smallCartContainer {
+  width: fit-content;
+  border: 2px solid gray;
+  margin: 1rem;
+}
+.CartContainerTitle {
+  color: #c74242;
+  margin-bottom: 3.15rem;
+}
+
+.RightContainer {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  position: fixed;
+  right: 0;
+  margin-right: 4rem;
+}
+
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border: 2px solid gray;
+}
+
+.articleTextAndImageContainer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid gray;
+  width: fit-content;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+  border: 2px solid gray;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: fit-content;
+}
+.articleTitle {
+  width: auto;
+  bottom: 78px;
+  padding-left: 1rem;
+
+  border-bottom: 2px solid gray;
+  font-size: 1.2rem;
+  color: gray;
+}
+.articleTitle:hover {
+  color: #c74242;
+}
+.articleText {
+  font-size: 0.8rem;
+  text-align: left;
+  width: 280px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.articleImage {
+  width: 300px;
+  height: 100%;
+}
+
+.cartImage {
+  width: 200px;
+  height: 100%;
+}
+
+.ArticlesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 3.45rem;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.LeftContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemRatingPriceAndCartContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Rated {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.itemRating {
+  color: gray;
+}
+
+.itemRated {
+  color: #c74242;
+}
+
+.itemPriceAndCartContainer {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.itemPrice {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+.itemCart {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: gray;
+}
+
+.SearchContainer:hover {
+  color: #c74242;
+}
+
+.itemCart:hover {
+  color: #c74242;
+}
+
+.votes {
+  color: gray;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1050px) {
+  .articleTextAndImageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemRatingPriceAndCartContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemPriceAndCartContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .articleText {
+    margin-left: 10px;
+
+    text-align: left;
+  }
+  .ArticlesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .itemPrice {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .itemCart {
+    margin-left: 3.6rem;
+  }
+  .Rated {
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .articleTextAndImageContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemRatingPriceAndCartContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemPriceAndCartContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .articleText {
+    margin-left: 10px;
+
+    text-align: left;
+  }
+  .ArticlesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .itemPrice {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .itemCart {
+    margin-left: 3.6rem;
+  }
+  .Rated {
+    margin-left: 0.5rem;
+  }
+  .ArticlesContainer {
+  }
+  .RightContainer {
+    position: static;
+    margin-left: 0rem;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .CartContainer {
+    width: 300px;
+  }
+  .smallCartContainer {
+    margin-left: 2.5rem;
+  }
+  .BuyButton {
+    width: 298px;
+  }
+  .TotalPrice {
+    margin-left: 2.5rem;
+  }
+
+  .SearchContainer {
+    margin-top: 3.75rem;
+  }
+}

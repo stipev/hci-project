@@ -1,0 +1,98 @@
+.articleContainer {
+  position: relative;
+  margin-bottom: 5em;
+  border: 2px solid gray;
+  height: fit-content;
+  margin-right: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: fit-content;
+}
+
+.SearchContainer {
+  color: grey;
+  margin-top: 1.25rem;
+  margin-bottom: 0.2rem;
+}
+.SearchContainer:hover {
+  color: #c74242;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 25px;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.articleTitle {
+  width: 300px;
+  position: absolute;
+  bottom: 78px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(128, 128, 128, 60);
+  opacity: 0.6;
+}
+
+.articleText {
+  font-size: 0.8rem;
+  text-align: left;
+  width: 280px;
+  margin-left: 10px;
+}
+
+.articleTitle:hover {
+  background-color: rgba(199, 66, 66, 60);
+  opacity: 0.6;
+}
+
+.articleImage {
+  width: 300px;
+  height: 100%;
+}
+
+.ArticlesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 2.1rem;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.ArticlesAndTitlesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.CategoriesAndTitleContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 4rem;
+  margin-top: 1.1rem;
+}
+
+@media only screen and (max-width: 735px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ArticlesContainer {
+    margin-top: 3rem;
+  }
+  .CategoriesAndTitleContainer {
+    position: static;
+    margin: 0;
+    margin-left: -5rem;
+  }
+  input {
+    width: 287px;
+    margin-bottom: 1.5rem;
+  }
+}

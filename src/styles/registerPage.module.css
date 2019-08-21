@@ -1,0 +1,74 @@
+.LinkToRegister {
+  color: gray;
+  text-decoration: underline;
+}
+
+.LinkToRegister:hover {
+  color: #c74242;
+}
+
+.LogInContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: -2rem;
+  justify-content: center;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  color: #c74242;
+}
+
+.LogInButton {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  background: white;
+  border: 2px solid gray;
+}
+
+.LogInButton h3 {
+  color: #c74242;
+}
+
+.LogInButton:hover {
+  border: 2px solid #c74242;
+  cursor: pointer;
+  color: #c74242;
+}
+
+.InputStyles {
+  height: 30px;
+  width: 300px;
+  border: 1px solid gray;
+}
+input[type="text"] {
+  padding: 12px 20px;
+}
+input[type="date"] {
+  padding: 12px 20px;
+  color: gray;
+}
+input[type="password"] {
+  padding: 12px 20px;
+}
+input[type="number"] {
+  padding: 12px 20px;
+}
+
+.InputContainer {
+  width: fit-content;
+}
+
+.BottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
